@@ -1,0 +1,11 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: springboot-tomcat
+  datasource:
+    url: jdbc:postgresql://localhost:5432/feed?sslmode=disable
+    username: postgres
+    password: postgres
+    hikari:
+      maximum-pool-size: 50
