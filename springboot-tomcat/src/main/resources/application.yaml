@@ -4,7 +4,7 @@ spring:
   application:
     name: springboot-tomcat
   datasource:
-    url: jdbc:postgresql://localhost:5432/feed?sslmode=disable
+    url: jdbc:postgresql://172.25.96.1:5432/feed?sslmode=disable
     username: postgres
     password: postgres
     hikari:

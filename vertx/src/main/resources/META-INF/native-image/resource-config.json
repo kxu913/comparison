@@ -1,0 +1,25 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/ch.qos.logback.classic.spi.Configurator\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.origin.starter.web.spi.OriginRouter\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.vertx.config.spi.ConfigProcessor\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.vertx.config.spi.ConfigStoreFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.vertx.core.spi.VertxServiceProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\Qconf/default_config.json\\E"
+  }, {
+    "pattern":"\\Qconf\\E"
+  }, {
+    "pattern":"\\Qlogback.xml\\E"
+  }, {
+    "pattern":"\\Qzookeeper.json\\E"
+  }]},
+  "bundles":[]
+}

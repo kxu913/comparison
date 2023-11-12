@@ -17,7 +17,7 @@ public class FeedEntryController {
     private final FeedEntryMapper feedEntryMapper;
 
     @GetMapping("/rss")
-    public List<RssEntry> getRssEntry() {
+    public Mono<RssEntry> getRssEntry() {
 
         return feedEntryMapper.getRssEntry();
     }
